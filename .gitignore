@@ -4,6 +4,8 @@ __pycache__
 .pytest_cache
 test-results
 playwright-report
+report.html
+assets
 *.py[cod]
 
 # Local config and OS/editor noise

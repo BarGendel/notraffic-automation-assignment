@@ -28,6 +28,12 @@ BASE_URL=http://host:port pytest         # another environment
 HEADLESS=false SLOW_MO_MS=500 pytest     # watch the browser
 ```
 
+### Test report
+
+```bash
+pytest --html=report.html --self-contained-html   # writes a shareable report.html
+```
+
 Runs 13 active tests + 10 skipped `@known_issue` tests (one per bug). If the app is unreachable, active tests are skipped, not failed.
 
 Scenarios, bugs, and execution-time estimate: `QA_AUTOMATION_SUMMARY.md`.
