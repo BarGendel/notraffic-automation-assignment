@@ -1,0 +1,16 @@
+# Python
+.venv
+__pycache__
+.pytest_cache
+test-results
+playwright-report
+*.py[cod]
+
+# Local config and OS/editor noise
+.env
+.env.*
+.DS_Store
+*.log
+coverage
+.idea
+.vscode
